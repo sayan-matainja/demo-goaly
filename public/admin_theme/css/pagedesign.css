@@ -1,0 +1,202 @@
+      
+   .help-error{
+    color:#e73d4a;
+  } 
+  .label-success {
+      background-color: #5cb85c;
+  }
+  #btn_pred{
+     margin-top: 5px !important;
+  }
+  .btn-circle {
+      width: 23px;
+      height: 23px;
+      padding: 0px 0px;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 12px;
+      line-height: 1.42857;
+  }
+  
+  .btn-sm, .btn-group-sm > .btn, .ui-datepicker-buttonpane .btn-group-sm > button, .sp-container .btn-group-sm > button, .ui-datepicker-buttonpane button{
+      font-size: 12px;
+      padding: 2px 4px;
+  }
+  .file-upload {
+      position: absolute;
+      display: inline-block;
+      top: 20px;
+      width: 115px;
+      height: 115px;
+      margin: 20px auto;
+      left: 0;
+      right: 0;
+      border-radius: 50%;
+      overflow: hidden;
+      opacity: 0;
+  }
+  
+  .file-upload__label {
+      display: block;
+      padding: 0;
+      color: #fff;
+      background: #222;
+      transition: background .3s;
+      width: 100%;
+      height: 100%;
+  }
+  .file-upload__label:hover {
+    cursor: pointer;
+  }
+  .edit_profle {
+      position: absolute;
+      top: 33px;
+      color: #fff;
+      right: 84px;
+      font-size: 21px;
+  }
+  .file-upload__input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 1;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+  }
+  .edit_form > form > .form-group > label {
+      font-size: 17px;
+      font-weight: normal;
+      color: #003367;
+      line-height: 35px;
+  }
+  .edit_form {
+      margin: 20px;
+  }
+  .form-control.form_modify {
+      border-radius: 0;
+      box-shadow: none;
+      border-color: #787878;
+  }
+  .profile-icon {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 50px;
+  }
+  .profile_name > p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+  }
+  #image_upload_preview1 {
+      width: 100%;
+      max-width:72px;
+      height: auto;
+      display:inline-block;
+  }
+  #image_upload_preview2 {
+      width: 100%;
+      max-width:72px;
+      height: auto;
+      display:inline-block;
+  }
+  #image_upload_previewBanner {
+      width: 100%;
+      max-width:72px;
+      height: auto;
+      display:inline-block;
+  }
+  #btn_subm {
+      width: 26%;
+      margin-left: 18px;
+      margin-top: 25px;
+      padding: 10px;
+      border-radius: 3px !important;
+      border: 0;
+      margin-top: 22px;
+  }
+  
+  .popup_heading_text{font-weight:600; float:left;}
+  .title_text{ text-align:right; margin-top:5px;}
+  .bootbox .modal-content {
+      margin-left: 160px;
+      width: 55%;
+  }
+  .modal, .modal-open {
+      overflow-y: hidden!important;
+  }
+  .modal.left.quiz .modal-content {
+      height: auto;
+      overflow: hidden;
+  }
+  .set_pred {
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: #008CBA; 
+    border: 2px solid #008CBA;
+    border-radius: 10px;
+  }
+  .set_pred:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  .modal-body {
+      max-height: calc(100vh - 210px);
+      /* overflow-y: auto; */
+  }
+  .teamlogo{
+        height: 30px;
+        width: 30px;
+  }
+  .red{
+    color: red;
+  }
+  .green{
+    color: #0eb313;
+  }
+  .match-div-master{
+    display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+  }
+  .match-div-sub{
+  display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+  }
+  .input-box-full{
+  
+  }
+  .input-box-small{
+      width: 40%;
+      height: 34px;
+      padding: 6px 12px;
+      background-color: #fff;
+      border: 1px solid #c2cad8;
+  }
+  .input-box-extra-small{
+      width: 10%;
+      height: 34px;
+      padding: 6px 12px;
+      background-color: #fff;
+      border: 1px solid #c2cad8;
+  }
+  .modal.effect-scale.show .modal-dialog {
+      transform: scale(0.8);
+  }

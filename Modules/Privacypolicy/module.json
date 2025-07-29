@@ -1,0 +1,13 @@
+{
+    "name": "Privacypolicy",
+    "alias": "privacypolicy",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Privacypolicy\\Providers\\PrivacypolicyServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
