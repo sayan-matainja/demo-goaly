@@ -23,7 +23,7 @@
                     <div>
                         <div id="UserFavourite" style="display: flex ; margin-right: 16px "> </div>
                     </div>
-                    <div style="display: flex; align-items: center;">
+                    <div style="display: flex; align-items: center;cursor: pointer">
                         @if (session('UserId'))
                             <a id="addBtn" class="add-club-button">+</a>
                         @else
@@ -43,13 +43,19 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img id="rewardImg" src="./images/bannerImage/demo-goaly-banner-1.jpg" alt="Reward"
-                                style="width:100%;">
+                            <picture>
+                                <source srcset="./images/bannerImage/demo-goaly-banner-1.webp" type="image/webp">
+                                <img class="rewardImg" src="./images/bannerImage/demo-goaly-banner-1.jpg" alt="Reward Banner" loading="lazy">
+                            </picture>
                         </div>
+
                         <div class="item">
-                            <img id="rewardImg" src="./images/bannerImage/demo-goaly-banner-2.png" alt="Reward"
-                                style="width:100%;">
-                        </div>
+                        <picture>
+                            <source srcset="./images/bannerImage/demo-goaly-banner-2.webp" type="image/webp">
+                            <img class="rewardImg" src="./images/bannerImage/demo-goaly-banner-2.png" alt="Reward Banner" loading="lazy">
+                        </picture>
+                    </div>
+
                     </div>
                 </div>
             </div>
@@ -192,12 +198,13 @@
                 </div>
             </div>
             <!-- floating button code here -->
-            <div class='float-button'>
-                <a href="https://linkit360.com/contact-us/">
+        <div class="float-button">
+            <a href="https://linkit360.com/contact-us/">
+                <picture>
+                    <source srcset="{{ asset('assets/img/floating-copyright.webp') }}" type="image/webp">
                     <img src="{{ asset('assets/img/floating-copyright.png') }}" alt="Description" />
-                </a>
-            </div>
-            <!-- floating button code end -->
+                </picture>
+            </a>
         </div>
         <!--page content -->
         <!-- Add fav club modal -->
@@ -306,7 +313,6 @@
             'cancel': '{{ trans('lang.cancel') }}',
         };
     </script>
-
     <script src="{{ asset('assets/js/Prediction.js') }}"></script>
     <script src="{{ asset('js/frontend/home.js') }}"></script>
     @if (Session::has('unauthorized'))

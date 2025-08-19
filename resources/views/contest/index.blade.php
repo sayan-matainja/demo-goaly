@@ -1,9 +1,8 @@
 @include('partials.header_portal')
-  </head>
+</head>
 
 <body>
 	<!--<div id="loader"><div id="spin"></div></div>-->
-
 	<div class="">
     @include('partials.topmenubar_portal')
 		<div class="clearfix"></div>
@@ -75,7 +74,7 @@
 					<div class="head">
 						<div class="col-xs-7 pl-10 pr-5">
 							<div class="left">
-								<img src="{{('assets/img/league/uefa-champions-league.png')}}" height="34" alt=""/>
+								<img src="{{('assets/img/league/uefa-champions-league.png')}}" height="34" alt="UEFA Champions League logo"/>
 								&nbsp; Champions League
 							</div>
 						</div>
@@ -84,7 +83,7 @@
 								<div class="matchdate">Wednesday, 08/05/2019</div>
 								<div class="stadium">
 									Anfield Stadium &nbsp;
-									<img src="{{('assets/img/thumb/ico-stadium.png')}}" alt=""/>
+									<img src="{{('assets/img/thumb/ico-stadium.png')}}" alt="Stadium icon"/>
 								</div>
 						  </div>
 						</div>
@@ -94,7 +93,7 @@
 						<div class="col-xs-3 pd-0">
 							<a href="{{route('team_detail')}}">
 								<div class="square">
-									<img src="{{('assets/img/club-liverpool.png')}}" height="60" alt=""/>
+									<img src="{{('assets/img/club-liverpool.png')}}" height="60" alt="Liverpool FC Logo"/>
 								</div>
 							</a>
 						</div>
@@ -111,7 +110,7 @@
 						<div class="col-xs-3 pd-0">
 							<a href="{{route('team_detail')}}">
 								<div class="square2">
-									<img src="{{('assets/img/barcelona.png')}}" height="60" alt=""/>
+									<img src="{{('assets/img/barcelona.png')}}" height="60" alt="Barcelona FC Logo"/>
 								</div>
 							</a>
 						</div>
@@ -150,7 +149,7 @@
 					<div class="head finished">
 						<div class="col-xs-7 pl-10 pr-5">
 							<div class="left">
-						    	<img src="{{('assets/img/league/serie-a.png')}}" class="" height="34" alt=""/>
+						    	<img src="{{('assets/img/league/serie-a.png')}}" class="" height="34" alt="Seria A League Logo"/>
 								&nbsp; Serie A
 							</div>
 						</div>
@@ -159,7 +158,7 @@
 								<div class="matchdate">Friday, 12/05/2019</div>
 								<div class="stadium">
 									Alianz Stadium &nbsp;
-									<img src="{{('assets/img/thumb/ico-stadium.png')}}" alt=""/>
+									<img src="{{('assets/img/thumb/ico-stadium.png')}}" alt="Stadium icon"/>
 								</div>
 						  </div>
 						</div>
@@ -168,7 +167,7 @@
 						<div class="col-xs-3 pd-0">
 							<a href="{{route('team_detail')}}">
 								<div class="square">
-							    	<img src="{{('assets/img/juventus_black.png')}}" height="60" alt=""/>
+							    	<img src="{{('assets/img/juventus_black.png')}}" height="60" alt="Juventus FC logo"/>
 								</div>
 							</a>
 						</div>
@@ -185,7 +184,7 @@
 						<div class="col-xs-3 pd-0">
 							<a href="{{route('team_detail')}}">
 								<div class="square2">
-							    	<img src="{{('assets/img/milan.png')}}" height="60" alt=""/>
+							    	<img src="{{('assets/img/milan.png')}}" height="60" alt="AC Milan logo"/>
 								</div>
 							</a>
 						</div>
@@ -214,92 +213,6 @@
 				</div>
 		  	</div>
 		  	<div class="clearfix"></div>
-
-		    <!--<div class="col-xs-12 lm ct">
-		  		<h2 class="title2">Today's Tips</h2>
-				<div class="hr"></div>
-				<div class="mb-10 part">
-		   			<h5>
-						Check out our free football predictions for today.
-					</h5>
-					<h5>
-						Choose Predictions:
-					</h5>
-					<div class="pt-input">
-						<select id="predict-day" name="predict-day" class="pt-select">
-							<option value="">Prediction Day</option>
-							<option value="">Today (Mar 25th)</option>
-							<option value="">Tomorrow (Mar 26th)</option>
-							<option value="">Wednesday (Mar 27th)</option>
-							<option value="">Thursday (Mar 28th)</option>
-							<option value="">Friday (Mar 29th)</option>
-						</select>
-					</div>
-					<h5>
-						Select A League:
-					</h5>
-					<div class="pt-input">
-						<select id="predict-league" name="predict-league" class="pt-select">
-							<option value="">Premier League</option>
-							<option value="">Serie A</option>
-							<option value="">La Liga</option>
-							<option value="">Ligue 1</option>
-							<option value="">Bundesliga</option>
-							<option value="">UEFA Champions League</option>
-							<option value="">UEFA Europa League</option>
-							<option value="">EUFA European Championship 2020</option>
-							<option value="">FIFA World Cup 2022</option>
-						</select>
-					</div>
-					<div class="widget-content">
-						<table class="table table-striped table-bordered">
-							<thead>
-								<tr>
-									<th>Event</th>
-									<th>Score</th>
-									<th class="td-actions"></th>
-									<th></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Turkey Vs Moldova</td>
-									<td class="text-center">3-0</td>
-									<td class="text-center"> <span class="stat-h">H</span></td>
-									<td class="text-center"> <a href="contest-viewtip.php" class="view-tip"> View Tip </a></td>
-								</tr>
-								<tr>
-									<td>Portugal Vs Serbia</td>
-									<td class="text-center">2-1</td>
-									<td class="text-center"> <span class="stat-h">H</span></td>
-									<td class="text-center"> <a href="contest-viewtip.php" class="view-tip"> View Tip </a></td>
-								</tr>
-								<tr>
-									<td>Island Vs France</td>
-									<td class="text-center">1-3</td>
-									<td class="text-center"> <span class="stat-a">A</span></td>
-									<td class="text-center"> <a href="contest-viewtip.php" class="view-tip"> View Tip </a></td>
-								</tr>
-								<tr>
-									<td>Montenegro Vs England</td>
-									<td class="text-center">1-3</td>
-									<td class="text-center"> <span class="stat-a">A</span></td>
-									<td class="text-center"> <a href="contest-viewtip.php" class="view-tip"> View Tip </a></td>
-								</tr>
-								<tr>
-									<td>Kosovo Vs Bulgaria</td>
-									<td class="text-center">1-1</td>
-									<td class="text-center"> <span class="stat-d">D</span></td>
-									<td class="text-center"> <a href="contest-viewtip.php" class="view-tip"> View Tip </a></td>
-								</tr>
-
-							</tbody>
-						</table>
-					</div>
-				</div>
-				<div class="hr"></div>
-		  	</div>-->
-
 	  </div>
 	</div>
     @include('partials.footernew')
@@ -311,7 +224,7 @@
 		  <div class="modal-header">
 			<button type="button" class="close" data-dismiss="modal">×</button>
 			<h4 class="modal-title text-center">
-				<img src="{{('assets/img/logo-goaly.png')}}" height="60" alt="">
+				<img src="{{('assets/img/logo-goaly.png')}}" height="60" alt="Goaly logo">
 			  </h4>
 		  </div>
 		  <div class="modal-body">
@@ -340,7 +253,7 @@
 		  <div class="modal-header">
 			<button type="button" class="close" data-dismiss="modal">×</button>
 			<h4 class="modal-title text-center">
-				<img src="{{('assets/img/logo-goaly.png')}}" height="60" alt="">
+				<img src="{{('assets/img/logo-goaly.png')}}" height="60" alt="Goaly logo">
 			  </h4>
 		  </div>
 		  <div class="modal-body pt-0">
@@ -363,7 +276,6 @@
 			  </div>
 		  </div>
 		</div>
-
 	  </div>
 	</div>
 </body>
