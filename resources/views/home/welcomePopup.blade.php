@@ -7,12 +7,17 @@
                         <div>
                             @foreach($popupDetails as $index=>$popup)
                              <div class="intro-slider-item {{ $index }}"  style="{{ $index === 0 ? 'display: block;' : 'display: none;' }}">
-                                
                                     <div class="px-2 pt-2">
                                         <div class="text-center">
-                                            <img src="{{ asset('/assets/img/popup/' . $popup['logo']) }}" height="35" alt="Logo" style="margin: 0px auto;" id="introductionLogo">
+                                            <picture>
+                                                <source srcset="{{ asset('/assets/img/popup/' . pathinfo($popup['logo'], PATHINFO_FILENAME) . '.webp') }}" type="image/webp">
+                                                <img src="{{ asset('/assets/img/popup/' . $popup['logo']) }}" height="35" alt="Logo" style="margin: 0px auto;" id="introductionLogo">
+                                            </picture>
                                         </div>
-                                        <img class="img-responsive" src="{{ asset('/assets/img/popup/' . $popup['image']) }}" alt="Intro" id="instructionImg">
+                                        <picture>
+                                            <source srcset="{{ asset('/assets/img/popup/' . pathinfo($popup['image'], PATHINFO_FILENAME) . '.webp') }}" type="image/webp">
+                                            <img class="img-responsive" src="{{ asset('/assets/img/popup/' . $popup['image']) }}" alt="Intro" id="instructionImg">
+                                        </picture>
                                     </div>
                                     <div class="intro-info" style="border-radius: 10px;">
                                         <div class="container-fluid">
@@ -40,8 +45,7 @@
                                             @endif
                                         </div>
                                     </div>
-                                
-                            </div>
+                                </div>
                             @endforeach
                         </div>
                     </div>
