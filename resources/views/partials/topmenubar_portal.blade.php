@@ -1,8 +1,8 @@
 <div id="toolbar" class="navbar-custom">
-    
+
 
     <div class="logo">
-        <a id="logo" href="{{route('home')}}"><img src="{{('/assets/img/logo-white.png')}}" height="64" style="padding:10px; padding-left:16px " alt=""> </a>
+        <a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo-white.png') }}" alt="Goaly Logo" width="338" height="205" style="height:64px; width:auto; padding:10px; padding-left:16px" alt="Goaly Logo"></a>
     </div>
     <div class="m-0">
         &nbsp;
@@ -14,7 +14,7 @@
         <!-- <a href="{{route('search')}}" class="ion-head">
             <ion-icon name="search" role="img" class="hydrated" aria-label="search"></ion-icon>
         </a> -->
-        
+
         @php
             $UserData = Session::get('UserId');
         @endphp
@@ -33,7 +33,6 @@
   </div>
 
         <div id="loader-logo-golay" class="loader-logo-golay" style=" zIndex: 998;">
-    
+
             <img  src="{{asset('assets/img/logo-goaly.png')}}"  style="height: auto; width: 50%" alt="goaly logo" />
         </div>
-       

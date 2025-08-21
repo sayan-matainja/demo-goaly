@@ -16,7 +16,8 @@
         <link rel="stylesheet" href="{{ asset('assets/css/detail-match.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/fontello/css/goaly-enhan.css') }}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="preload" as="image" href="{{ asset('/assets/img/popup/bg-intro.webp') }}">
+        <link rel="preload" href="{{ asset('assets/img/popup/bg-intro.webp') }}" as="image">
+        <link rel="preload" href="{{ asset('images/bannerImage/demo-goaly-banner-1.webp') }}" as="image" type="image/webp">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">

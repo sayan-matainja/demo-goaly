@@ -44,15 +44,15 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <picture>
-                                <source srcset="./images/bannerImage/demo-goaly-banner-1.webp" type="image/webp">
-                                <img class="rewardImg" src="./images/bannerImage/demo-goaly-banner-1.jpg" alt="Reward Banner" loading="lazy">
+                                <source srcset="{{ asset('images/bannerImage/demo-goaly-banner-1.webp') }}" type="image/webp">
+                                <img class="rewardImg" src="{{ asset('images/bannerImage/demo-goaly-banner-1.jpg') }}" width="750" height="250" alt="Rewards Promotion Banner">
                             </picture>
                         </div>
 
                         <div class="item">
                         <picture>
-                            <source srcset="./images/bannerImage/demo-goaly-banner-2.webp" type="image/webp">
-                            <img class="rewardImg" src="./images/bannerImage/demo-goaly-banner-2.png" alt="Reward Banner" loading="lazy">
+                            <source srcset="{{ asset('images/bannerImage/demo-goaly-banner-2.webp') }}" type="image/webp">
+                            <img class="rewardImg" src="{{ asset('images/bannerImage/demo-goaly-banner-2.png') }}" width="750" height="250" alt="Rewards Promotion Banner">
                         </picture>
                     </div>
 

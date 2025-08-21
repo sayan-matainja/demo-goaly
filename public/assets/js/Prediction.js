@@ -23,7 +23,7 @@ $(document).ready(function () {
                             $("#UserFavourite").append(
                                 '<div class="favClubLogo"><img id="favouriteClub" src="' +
                                     response.badge +
-                                    '" alt="Favourite Club"></div> '
+                                    '" alt="Favourite Club" width="150" height="150" loading="lazy"></div> '
                             );
 
                             count++;
